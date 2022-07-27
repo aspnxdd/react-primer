@@ -1,5 +1,28 @@
 # @primer/components
 
+## 35.6.0
+
+### Minor Changes
+
+- [#2174](https://github.com/primer/react/pull/2174) [`62dbc981`](https://github.com/primer/react/commit/62dbc9810f93cf16f17fce412c47ac2bf885a89e) Thanks [@colebemis](https://github.com/colebemis)! - Add a responsive `hidden` prop to `PageLayout.Header`, `PageLayout.Pane`, `PageLayout.Content`, and `PageLayout.Footer` that allows you to hide layout regions based on the viewport width. Example usage:
+
+  ```jsx
+  // Hide pane on narrow viewports
+  <PageLayout.Pane hidden={{narrow: true}}>...</PageLayout.Pane>
+  ```
+
+* [#2164](https://github.com/primer/react/pull/2164) [`2b5c86e5`](https://github.com/primer/react/commit/2b5c86e59f16d697433e3302e78d623a177a061e) Thanks [@mperrotti](https://github.com/mperrotti)! - Adds support for a responsive 'variant' prop to the SegmentedControl component
+
+### Patch Changes
+
+- [#2186](https://github.com/primer/react/pull/2186) [`e28aadbd`](https://github.com/primer/react/commit/e28aadbdf1c5b0d03aba83dcfbe1c77746cfcf97) Thanks [@mperrotti](https://github.com/mperrotti)! - Updates SegmentedControl styles to use component primitives.
+
+* [#2171](https://github.com/primer/react/pull/2171) [`384ae6b9`](https://github.com/primer/react/commit/384ae6b9adb2bcf1389e2059cbd68f319cc2e56d) Thanks [@anleac](https://github.com/anleac)! - Support issues closed as not planned, and correct the standard issue closed backgroud colour
+
+- [#2173](https://github.com/primer/react/pull/2173) [`ed609719`](https://github.com/primer/react/commit/ed60971944316279bb48128f3fb466dd2385a36e) Thanks [@mperrotti](https://github.com/mperrotti)! - Updates styles for the Select component so that the focus outline is even all the way around.
+
+* [#2166](https://github.com/primer/react/pull/2166) [`75d21745`](https://github.com/primer/react/commit/75d21745daa8e50f707a80a4358a86163c64453c) Thanks [@mattcosta7](https://github.com/mattcosta7)! - button should be polymorphic
+
 ## 35.5.0
 
 ### Minor Changes
